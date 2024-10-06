@@ -1,0 +1,10 @@
+C:\Users\Student\Desktop\komis\Calkulatorwalut\obj\Debug\Calkulatorwalut.csproj.AssemblyReference.cache
+C:\Users\Student\Desktop\komis\Calkulatorwalut\obj\Debug\Calkulatorwalut.Properties.Resources.resources
+C:\Users\Student\Desktop\komis\Calkulatorwalut\obj\Debug\Calkulatorwalut.csproj.GenerateResource.cache
+C:\Users\Student\Desktop\komis\Calkulatorwalut\obj\Debug\Calkulatorwalut.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\komis\Calkulatorwalut\obj\Debug\Calkulatorwalut.Form1.resources
+C:\Users\Student\Desktop\komis\Calkulatorwalut\bin\Debug\Calkulatorwalut.exe.config
+C:\Users\Student\Desktop\komis\Calkulatorwalut\bin\Debug\Calkulatorwalut.exe
+C:\Users\Student\Desktop\komis\Calkulatorwalut\bin\Debug\Calkulatorwalut.pdb
+C:\Users\Student\Desktop\komis\Calkulatorwalut\obj\Debug\Calkulatorwalut.exe
+C:\Users\Student\Desktop\komis\Calkulatorwalut\obj\Debug\Calkulatorwalut.pdb
