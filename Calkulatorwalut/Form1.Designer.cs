@@ -37,30 +37,33 @@
             // 
             this.lblAmountInPLN.AutoSize = true;
             this.lblAmountInPLN.Font = new System.Drawing.Font("MS Reference Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.lblAmountInPLN.Location = new System.Drawing.Point(12, 9);
+            this.lblAmountInPLN.Location = new System.Drawing.Point(61, 61);
             this.lblAmountInPLN.Name = "lblAmountInPLN";
             this.lblAmountInPLN.Size = new System.Drawing.Size(172, 26);
             this.lblAmountInPLN.TabIndex = 0;
             this.lblAmountInPLN.Text = "Kwota w PLN:";
+            this.lblAmountInPLN.Click += new System.EventHandler(this.lblAmountInPLN_Click);
             // 
             // txtAmountInPLN
             // 
-            this.txtAmountInPLN.Location = new System.Drawing.Point(41, 49);
+            this.txtAmountInPLN.Location = new System.Drawing.Point(95, 113);
             this.txtAmountInPLN.Name = "txtAmountInPLN";
             this.txtAmountInPLN.Size = new System.Drawing.Size(100, 20);
             this.txtAmountInPLN.TabIndex = 1;
+            this.txtAmountInPLN.TextChanged += new System.EventHandler(this.txtAmountInPLN_TextChanged);
             // 
             // cmbCurrency
             // 
             this.cmbCurrency.FormattingEnabled = true;
-            this.cmbCurrency.Location = new System.Drawing.Point(41, 84);
+            this.cmbCurrency.Location = new System.Drawing.Point(95, 159);
             this.cmbCurrency.Name = "cmbCurrency";
             this.cmbCurrency.Size = new System.Drawing.Size(100, 21);
             this.cmbCurrency.TabIndex = 2;
+            this.cmbCurrency.SelectedIndexChanged += new System.EventHandler(this.cmbCurrency_SelectedIndexChanged);
             // 
             // btnConvert
             // 
-            this.btnConvert.Location = new System.Drawing.Point(41, 121);
+            this.btnConvert.Location = new System.Drawing.Point(95, 210);
             this.btnConvert.Name = "btnConvert";
             this.btnConvert.Size = new System.Drawing.Size(100, 23);
             this.btnConvert.TabIndex = 3;
@@ -70,24 +73,26 @@
             // 
             // lblResult
             // 
-            this.lblResult.AutoSize = true;
-            this.lblResult.Location = new System.Drawing.Point(153, 200);
+            this.lblResult.Location = new System.Drawing.Point(77, 326);
             this.lblResult.Name = "lblResult";
-            this.lblResult.Size = new System.Drawing.Size(0, 13);
+            this.lblResult.Size = new System.Drawing.Size(214, 60);
             this.lblResult.TabIndex = 4;
+            this.lblResult.Text = "Tu pojawi się kwota w wybranej walucie";
+            this.lblResult.Click += new System.EventHandler(this.lblResult_Click);
             // 
             // lblResultUSD
             // 
-            this.lblResultUSD.AutoSize = true;
-            this.lblResultUSD.Location = new System.Drawing.Point(153, 177);
+            this.lblResultUSD.Location = new System.Drawing.Point(77, 255);
             this.lblResultUSD.Name = "lblResultUSD";
-            this.lblResultUSD.Size = new System.Drawing.Size(0, 13);
+            this.lblResultUSD.Size = new System.Drawing.Size(214, 60);
             this.lblResultUSD.TabIndex = 5;
+            this.lblResultUSD.Text = "Tu pojawi się kwota w USD";
+            this.lblResultUSD.Click += new System.EventHandler(this.lblResultUSD_Click);
             // 
             // lblRates
             // 
             this.lblRates.Font = new System.Drawing.Font("MS Reference Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.lblRates.Location = new System.Drawing.Point(389, 9);
+            this.lblRates.Location = new System.Drawing.Point(350, 61);
             this.lblRates.Name = "lblRates";
             this.lblRates.Size = new System.Drawing.Size(205, 214);
             this.lblRates.TabIndex = 6;

@@ -78,6 +78,31 @@ public partial class Form1 : Form
         {
 
         }
+
+        private void lblResult_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtAmountInPLN_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmbCurrency_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblAmountInPLN_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblResultUSD_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }
